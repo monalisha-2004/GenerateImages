@@ -1,1 +1,1 @@
-This is an image generation annd chatbot website.
+This is an image generation and chatbot website.

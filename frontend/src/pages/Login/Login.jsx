@@ -122,7 +122,7 @@ const Login = () => {
           photoURL = photoURL.split("=")[0] + "?sz=256";
         }
         const idToken = await user.getIdToken();
-        const response = await fetch("/api/users/signin", {
+        const response = await fetch(`${import.meta.env.VITE_BACKEND_URL}/api/users/signin`, {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

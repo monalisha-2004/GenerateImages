@@ -148,12 +148,6 @@ const Signup = () => {
     }
   };
 
-  // if (showVerificationMessage) {
-  //   return (
-
-  //   );
-  // }
-
   const cardVariants = {
     hidden: { opacity: 0, y: 30 },
     visible: {
